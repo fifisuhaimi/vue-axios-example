@@ -1,0 +1,40 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+main > .container {
+  padding: 60px 15px 0;
+}
+
+code {
+  font-size: 80%;
+}
+
+.legends {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.student {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.student .name {
+  font-size: 12pt;
+}
+
+.student .age {
+  font-size: 12pt;
+}
+
+.student .gender {
+  font-size: 12pt;
+}
+
+.student .actions {
+  display: inline;
+}
